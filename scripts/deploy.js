@@ -1,4 +1,8 @@
 // file for server deployments
+// in particular it creates a new block on 
+// the local Ethereum network 
+// block - batch of transaction with a hash of the previous 
+// block on the chain 
 
 const { hexStripZeros } = require("ethers/lib/utils")
 
